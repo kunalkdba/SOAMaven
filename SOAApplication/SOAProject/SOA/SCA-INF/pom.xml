@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.singhpora.samples.SOAApplication</groupId>
   <artifactId>SOAProject-SCAJava</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0</version>
   <build>
     <directory>${project.basedir}/lib</directory><!-- resolves to SCA-INF/lib -->
     <outputDirectory>${project.basedir}/classes</outputDirectory>
