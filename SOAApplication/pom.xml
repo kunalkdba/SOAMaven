@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.singhpora.samples.SOAApplication</groupId>
   <artifactId>SOAApplication</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <description>Super POM for SOAApplication</description>
   <modules>
     <module>SOAProject/SOA/SCA-INF</module>
