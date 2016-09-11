@@ -4,6 +4,11 @@
   <groupId>com.singhpora.samples.SOAApplication</groupId>
   <artifactId>SOAProject-SCAJava</artifactId>
   <version>1.0</version>
+   <parent>
+        <groupId>com.oracle.soa</groupId>
+        <artifactId>sar-common</artifactId>
+        <version>12.2.1-0-0</version>
+    </parent>
   <build>
     <directory>${project.basedir}/lib</directory><!-- resolves to SCA-INF/lib -->
     <outputDirectory>${project.basedir}/classes</outputDirectory>
