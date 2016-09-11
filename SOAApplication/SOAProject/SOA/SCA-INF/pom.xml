@@ -4,6 +4,7 @@
   <groupId>com.singhpora.samples.SOAApplication</groupId>
   <artifactId>SOAProject-SCAJava</artifactId>
   <version>1.0</version>
+  <packaging>jar</packaging>
    <parent>
         <groupId>com.oracle.soa</groupId>
         <artifactId>sar-common</artifactId>
@@ -14,5 +15,6 @@
     <outputDirectory>${project.basedir}/classes</outputDirectory>
    
     <sourceDirectory>${project.basedir}/src</sourceDirectory>
+
 </build>
 </project>
