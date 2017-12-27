@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.singhpora.samples.SOAApplication</groupId>
+  <artifactId>SOAApplication</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <description>Super POM for SOAApplication</description>
+
+  <parent>
+        <groupId>com.oracle.soa</groupId>
+        <artifactId>sar-common</artifactId>
+        <version>12.2.1-0-0</version>
+    </parent>
+
+  <modules>
+    <module>SOAProject/SOA/SCA-INF</module>
+    <module>SOAProject</module>
+  </modules>
+  <packaging>pom</packaging>
+
+ 
+</project>
