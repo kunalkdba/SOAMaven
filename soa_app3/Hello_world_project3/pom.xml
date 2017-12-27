@@ -69,7 +69,9 @@
           <compositeName>Hello_world_project3</compositeName>
           <composite>${scac.input}</composite>
           <sarLocation>${scac.output.dir}/sca_${project.artifactId}_rev${project.version}.jar</sarLocation>
-         
+         <serverUrl>http://localhost:7007</serverUrl>
+          <user>weblogic</user>
+          <password>welcome1</password>
           <overwrite>true</overwrite>
           <forceDefault>true</forceDefault>
           <regenerateRulebase>false</regenerateRulebase>
