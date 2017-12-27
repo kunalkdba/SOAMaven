@@ -6,11 +6,23 @@
   <version>1.0-SNAPSHOT</version>
   <description>Super POM for SOAApplication</description>
 
+
   <parent>
         <groupId>com.oracle.soa</groupId>
         <artifactId>sar-common</artifactId>
         <version>12.2.1-0-0</version>
     </parent>
+  
+    <properties>
+  <serverUrl>http://localhost:7007</serverUrl>
+  <user>weblogic</user>
+  <password>welcome1</password>
+  
+  <overwrite>true</overwrite>
+<forceDefault>true</forceDefault>
+<regenerateRulebase>false</regenerateRulebase>
+<keepInstancesOnRedeploy>false</keepInstancesOnRedeploy>
+  </properties>
 
   <modules>
     <module>SOAProject/SOA/SCA-INF</module>
