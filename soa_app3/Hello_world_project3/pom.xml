@@ -99,8 +99,8 @@
           <!--<soaOracleHome>JDEV_HOME/soa</soaOracleHome> -->
         <!-- <input>Hello_world_project3</input> -->
         </configuration>
-        <!-- extensions=true is needed to use the custom sar packaging type 
-        <extensions>true</extensions> -->
+        <!-- extensions=true is needed to use the custom sar packaging type -->
+        <extensions>true</extensions>
       </plugin>
       <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
