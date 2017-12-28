@@ -97,7 +97,7 @@
                     -->
           <!--<oracleHome>JDEV_HOME</oracleHome>-->
           <!--<soaOracleHome>JDEV_HOME/soa</soaOracleHome> -->
-         <!-- <input>Hello_world_project3</input> -->
+         <input>Hello_world_project3</input>
         </configuration>
         <!-- extensions=true is needed to use the custom sar packaging type -->
         <extensions>true</extensions>
