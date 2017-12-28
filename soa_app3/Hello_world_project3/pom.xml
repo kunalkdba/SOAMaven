@@ -48,9 +48,9 @@
     <keepInstancesOnRedeploy>false</keepInstancesOnRedeploy>
     <!-- these parameters are used by the test goal -->
     <!-- if you are using the sca-test (test) goal, you need to uncomment the following
-             line and point it to your jndi.properties file. 
+             line and point it to your jndi.properties file. -->
     <jndi.properties.input>${basedir}/jndi.properties</jndi.properties.input>
-    <scatest.result>${scac.output.dir}/testResult</scatest.result> -->
+   <!-- <scatest.result>${scac.output.dir}/testResult</scatest.result> -->
     <!--  input is the name of the composite to run test suties against 
    <input>Hello_world_project3</input> -->
     <oracleHome>${env.ORACLE_HOME}</oracleHome>
@@ -97,7 +97,7 @@
                     -->
           <!--<oracleHome>JDEV_HOME</oracleHome>-->
           <!--<soaOracleHome>JDEV_HOME/soa</soaOracleHome> -->
-         <input>Hello_world_project3</input>
+        <!-- <input>Hello_world_project3</input> -->
         </configuration>
         <!-- extensions=true is needed to use the custom sar packaging type -->
         <extensions>true</extensions>
