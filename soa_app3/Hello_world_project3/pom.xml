@@ -96,8 +96,8 @@
                              with "/soa" appended to it.
                     -->
           <!--<oracleHome>JDEV_HOME</oracleHome>-->
-          <!--<soaOracleHome>JDEV_HOME/soa</soaOracleHome>
-          <input>${input}</input>-->
+          <!--<soaOracleHome>JDEV_HOME/soa</soaOracleHome> -->
+          <input>${input}</input>
         </configuration>
         <!-- extensions=true is needed to use the custom sar packaging type -->
         <extensions>true</extensions>
